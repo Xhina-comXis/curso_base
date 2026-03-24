@@ -32,16 +32,16 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="inline-block px-4 py-2 bg-[#d4af37]/10 border border-[#d4af37]/30 rounded-full">
                   <span className="text-[#d4af37] text-sm font-semibold uppercase tracking-wider">
-                    Modelo Base de Curso Online
+                    Acesso Exclusivo
                   </span>
                 </div>
 
                 <h1 className="text-5xl md:text-7xl font-black text-white leading-tight">
-                  Transforme Seu <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00ff88]">Conhecimento</span> em Vendas
+                  Domine a Arte de <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4af37] to-[#00ff88]">Vender Online</span>
                 </h1>
 
                 <p className="text-xl text-gray-300 leading-relaxed max-w-xl">
-                  Este é um template profissional de landing page para venda de cursos online. Customize com seu nome, tema e imagens para começar a vender.
+                  Descubra os segredos que os maiores vendedores usam para fechar negócios e construir um império digital. Tudo que você precisa está aqui.
                 </p>
               </div>
 
@@ -68,11 +68,11 @@ export default function Home() {
               <div className="flex items-center gap-6 pt-4 text-sm text-gray-400">
                 <div className="flex items-center gap-2">
                   <Users className="h-5 w-5 text-[#00ff88]" />
-                  <span>1000+ Alunos</span>
+                  <span>5.847 Alunos Satisfeitos</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Star className="h-5 w-5 text-[#d4af37]" />
-                  <span>4.9/5 Avaliação</span>
+                  <span>4.9/5 Estrelas</span>
                 </div>
               </div>
             </div>
@@ -105,10 +105,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-12">
             <div className="space-y-4">
               <h2 className="text-5xl md:text-6xl font-black text-white">
-                Qual é o Seu Maior Desafio?
+                O Que Está Te Impedindo de Crescer?
               </h2>
               <p className="text-xl text-gray-400">
-                Muitas pessoas têm conhecimento valioso, mas não sabem como monetizá-lo
+                Identifique os obstáculos que separam você do sucesso e aprenda como superá-los
               </p>
             </div>
 
@@ -116,19 +116,19 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-6 pt-8">
               {[
                 {
-                  title: "Falta de Estrutura",
-                  description: "Não sabe como organizar seu conhecimento em um curso profissional",
-                  icon: "📚",
+                  title: "Falta de Estratégia",
+                  description: "Não sabe por onde começar ou qual caminho seguir para ter sucesso",
+                  icon: "🎯",
                 },
                 {
-                  title: "Baixas Vendas",
-                  description: "Tem alunos, mas não consegue vender o suficiente para crescer",
-                  icon: "📉",
+                  title: "Sem Resultados",
+                  description: "Tenta várias coisas mas nada parece funcionar de verdade",
+                  icon: "📊",
                 },
                 {
-                  title: "Falta de Autoridade",
-                  description: "Seus alunos não veem você como especialista no assunto",
-                  icon: "👤",
+                  title: "Insegurança",
+                  description: "Dúvida se consegue fazer isso sozinho ou se é realmente capaz",
+                  icon: "🔒",
                 },
               ].map((problem, idx) => (
                 <Card
@@ -155,11 +155,11 @@ export default function Home() {
               <div className="relative group order-2 md:order-1">
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#00d4ff] to-[#00ff88] rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-500"></div>
                 <div className="relative bg-[#1a1f3a] rounded-2xl overflow-hidden border border-[#00d4ff]/20">
-                <img
-                  src="https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/product_mockup_081283c0.jpg"
-                  alt="Plataforma de Cursos"
-                  className="w-full h-full object-cover rounded-2xl"
-                />
+                  <img
+                    src="https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/product_mockup_081283c0.jpg"
+                    alt="Plataforma de Cursos"
+                    className="w-full h-full object-cover rounded-2xl"
+                  />
                 </div>
               </div>
 
@@ -167,22 +167,22 @@ export default function Home() {
               <div className="space-y-8 order-1 md:order-2">
                 <div className="space-y-4">
                   <h2 className="text-5xl md:text-6xl font-black text-white">
-                    A Solução Completa
+                    Tudo Que Você Precisa
                   </h2>
                   <p className="text-xl text-gray-400">
-                    Este template oferece tudo que você precisa para começar a vender seus cursos online profissionalmente.
+                    Um sistema completo, testado e comprovado que já transformou a vida de milhares de pessoas. Agora é sua vez.
                   </p>
                 </div>
 
                 {/* Features */}
                 <div className="space-y-4">
                   {[
-                    "Landing page de alta conversão",
-                    "Design profissional e moderno",
-                    "Totalmente customizável",
-                    "Otimizado para vendas",
-                    "Responsivo em todos os dispositivos",
-                    "Pronto para integração com plataformas de pagamento",
+                    "Método passo a passo comprovado",
+                    "Acesso vitalício ao conteúdo",
+                    "Suporte direto com especialistas",
+                    "Comunidade exclusiva de alunos",
+                    "Certificado reconhecido no mercado",
+                    "Bônus exclusivos e atualizações grátis",
                   ].map((feature, idx) => (
                     <div key={idx} className="flex items-center gap-3">
                       <CheckCircle2 className="h-6 w-6 text-[#00ff88] flex-shrink-0" />
@@ -203,10 +203,10 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
               <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
-                Depoimentos de Alunos
+                Histórias de Sucesso
               </h2>
               <p className="text-xl text-gray-400">
-                Veja o que nossos alunos dizem sobre a experiência
+                Veja como pessoas comuns transformaram suas vidas com este programa
               </p>
             </div>
 
@@ -215,16 +215,16 @@ export default function Home() {
               {[
                 {
                   name: "Maria Silva",
-                  role: "Empreendedora",
+                  role: "Empreendedora Digital",
                   image: "testimonial_1",
-                  text: "Este template me ajudou a criar minha primeira landing page profissional em poucas horas. Recomendo!",
+                  text: "Mudou completamente minha vida. Em 3 meses já estava faturando 5x mais. Não tenho palavras para agradecer!",
                   rating: 5,
                 },
                 {
                   name: "João Santos",
-                  role: "Consultor",
+                  role: "Consultor de Negócios",
                   image: "testimonial_2",
-                  text: "A qualidade do design é excepcional. Meus alunos ficaram impressionados com a profissionalidade.",
+                  text: "Finalmente encontrei a fórmula que funciona. Meus clientes triplicaram e agora tenho tempo livre de verdade.",
                   rating: 5,
                 },
               ].map((testimonial, idx) => (
@@ -234,7 +234,7 @@ export default function Home() {
                 >
                   <div className="flex items-center gap-4 mb-4">
                     <img
-                      src={testimonial.image === '/images/testimonial_1.jpg' ? 'https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/testimonial_1_995b011d.jpg' : 'https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/testimonial_2_64f1b997.jpg'}
+                      src={testimonial.image === "testimonial_1" ? "https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/testimonial_1_995b011d.jpg" : "https://d2xsxph8kpxj0f.cloudfront.net/310519663450047023/PGxtQu6Qre7RJc7YCJdar3/testimonial_2_64f1b997.jpg"}
                       alt={testimonial.name}
                       className="w-16 h-16 rounded-full object-cover border-2 border-[#d4af37]"
                     />
@@ -277,23 +277,23 @@ export default function Home() {
 
               <div className="relative z-10 space-y-6">
                 <div className="space-y-2">
-                  <p className="text-gray-400 text-lg">De: R$ 297,00</p>
+                  <p className="text-gray-400 text-lg">Valor Normal: R$ 497,00</p>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-6xl font-black text-[#d4af37]">R$ 97</span>
+                    <span className="text-6xl font-black text-[#d4af37]">R$ 197</span>
                     <span className="text-gray-400">/acesso vitalício</span>
                   </div>
-                  <p className="text-[#00ff88] font-bold">67% de desconto</p>
+                  <p className="text-[#00ff88] font-bold">60% de desconto por tempo limitado</p>
                 </div>
 
                 {/* Bonus List */}
                 <div className="space-y-3 pt-6 border-t border-[#d4af37]/20">
                   <p className="text-white font-bold text-lg">Incluso nesta oferta:</p>
                   {[
-                    "Acesso completo ao curso",
-                    "Materiais de apoio em PDF",
-                    "Certificado de conclusão",
-                    "Suporte por email",
-                    "Atualizações futuras",
+                    "Acesso vitalício a todo conteúdo",
+                    "Videoaulas em alta qualidade",
+                    "Certificado digital reconhecido",
+                    "Grupo VIP de suporte",
+                    "Bônus exclusivos (valor R$ 300)",
                   ].map((bonus, idx) => (
                     <div key={idx} className="flex items-center gap-2">
                       <CheckCircle2 className="h-5 w-5 text-[#00ff88] flex-shrink-0" />
@@ -326,10 +326,10 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div className="space-y-4">
               <h2 className="text-5xl md:text-6xl font-black text-white">
-                Pronto para Começar?
+                Sua Transformação Começa Agora
               </h2>
               <p className="text-xl text-gray-400">
-                Não deixe essa oportunidade passar. Customize este template com seu nome e comece a vender hoje mesmo.
+                Não deixe para depois. Cada dia que passa é um dia perdido. Garanta seu acesso hoje com 60% de desconto.
               </p>
             </div>
 
@@ -347,31 +347,31 @@ export default function Home() {
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 mb-8">
               <div>
-                <h3 className="text-white font-bold mb-4">Sobre</h3>
+                <h3 className="text-white font-bold mb-4">Sobre o Programa</h3>
                 <p className="text-gray-400 text-sm">
-                  Template profissional de landing page para vendas de cursos online.
+                  Desenvolvido por especialistas com mais de 20 anos de experiência no mercado. Já transformou a vida de mais de 50 mil pessoas.
                 </p>
               </div>
               <div>
-                <h3 className="text-white font-bold mb-4">Links Rápidos</h3>
+                <h3 className="text-white font-bold mb-4">Informações</h3>
                 <ul className="space-y-2 text-gray-400 text-sm">
-                  <li><a href="#" className="hover:text-[#d4af37] transition">Início</a></li>
-                  <li><a href="#" className="hover:text-[#d4af37] transition">Sobre</a></li>
-                  <li><a href="#" className="hover:text-[#d4af37] transition">Contato</a></li>
+                  <li><a href="#" className="hover:text-[#d4af37] transition">Política de Privacidade</a></li>
+                  <li><a href="#" className="hover:text-[#d4af37] transition">Termos de Uso</a></li>
+                  <li><a href="#" className="hover:text-[#d4af37] transition">Suporte</a></li>
                 </ul>
               </div>
               <div>
-                <h3 className="text-white font-bold mb-4">Redes Sociais</h3>
+                <h3 className="text-white font-bold mb-4">Conecte-se</h3>
                 <ul className="space-y-2 text-gray-400 text-sm">
                   <li><a href="#" className="hover:text-[#d4af37] transition">Instagram</a></li>
-                  <li><a href="#" className="hover:text-[#d4af37] transition">Facebook</a></li>
-                  <li><a href="#" className="hover:text-[#d4af37] transition">LinkedIn</a></li>
+                  <li><a href="#" className="hover:text-[#d4af37] transition">YouTube</a></li>
+                  <li><a href="#" className="hover:text-[#d4af37] transition">WhatsApp</a></li>
                 </ul>
               </div>
             </div>
 
             <div className="border-t border-[#d4af37]/10 pt-8 text-center text-gray-400 text-sm">
-              <p>&copy; 2026 Curso Base. Todos os direitos reservados.</p>
+              <p>&copy; 2026 Todos os direitos reservados.</p>
             </div>
           </div>
         </footer>
